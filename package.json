@@ -1,0 +1,38 @@
+{
+  "name": "typescript-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "tsc",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vijay Vittal J K",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-shell": "^0.6.3",
+    "gulp-typescript": "^3.1.6",
+    "run-sequence": "^1.2.2",
+    "typescript": "^2.2.2"
+  },
+  "dependencies": {
+    "@types/bcrypt-nodejs": "0.0.30",
+    "@types/body-parser": "^1.16.3",
+    "@types/express": "^4.0.35",
+    "@types/jsonwebtoken": "^7.2.0",
+    "@types/mongodb": "^2.1.43",
+    "@types/mongoose": "^4.7.11",
+    "@types/morgan": "^1.7.32",
+    "@types/node": "^7.0.13",
+    "@types/underscore": "^1.8.0",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "jsonwebtoken": "^7.4.0",
+    "mongoose": "^4.9.6",
+    "morgan": "^1.8.1",
+    "underscore": "^1.8.3"
+  }
+}
